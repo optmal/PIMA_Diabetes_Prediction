@@ -1,7 +1,7 @@
 from huggingface_hub import HfApi
 import os
 
-api = HfApi(token=os.getenv("HF_TOKEN"))
+api = HfApi(token=os.getenv("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"))
 api.upload_folder(
     folder_path="self_paced_courses_1_mlops/deployment",
     repo_id="opt456758/PIMA-Diabetes-Prediction"                                         # enter the Hugging Face username here
