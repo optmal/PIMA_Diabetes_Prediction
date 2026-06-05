@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 from huggingface_hub import login, HfApi
 
 # Define constants for the dataset and output paths
-api = HfApi(token=os.getenv("HF_TOKEN"))
+api = HfApi(token=os.getenv("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"))
 DATASET_PATH = "hf://datasets/opt456758/PIMA-Diabetes-Prediction/pima.csv"                  # enter the Hugging Face username here
 df = pd.read_csv(DATASET_PATH)
 print("Dataset loaded successfully.")
