@@ -7,7 +7,7 @@ repo_id = "opt456758/PIMA-Diabetes-Prediction"                         # enter t
 repo_type = "dataset"
 
 # Initialize API client
-api = HfApi(token=os.getenv("HF_TOKEN"))
+api = HfApi(token=os.getenv("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"))
 
 # Step 1: Check if the space exists
 try:
